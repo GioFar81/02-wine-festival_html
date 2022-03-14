@@ -1,0 +1,77 @@
+/* Main CSS */
+
+body {
+    background-color: #242f44;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    margin-top: 5px;
+    text-align: center;
+}
+
+h1 {
+    background-color: white;
+    color: #8c6b48;
+    font-size: 36px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    line-height: 2.7;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+th {
+    border: 2px solid #8c6b48;
+}
+
+table {
+    margin: 20px auto;
+    text-align: center;
+}
+
+td {
+    border: 2px solid #8c6b48;
+    width: 300px;
+}
+
+footer {
+    background-color: #242f44;
+    bottom: 5px;
+    margin-top: 50px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+}
+
+footer h3 {
+    background-color: #242f44;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.container {
+    height: 800px;
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+
+.left {
+    width: 150px;
+}
